@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-fynx/deadcode/internal/color"
+	"github.com/aidnetic/deadcode/internal/color"
 )
 
 var std = New(os.Stderr)

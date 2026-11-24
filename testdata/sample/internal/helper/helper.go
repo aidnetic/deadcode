@@ -35,7 +35,7 @@ func UnusedExported() {
 	fmt.Println("exported but unused")
 }
 
-// github.com/go-fynx/deadcode:keep - this function should be kept
+// github.com/aidnetic/deadcode:keep - this function should be kept
 func keptByAnnotation() {
 	fmt.Println("I should be kept")
 }

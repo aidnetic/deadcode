@@ -1,4 +1,4 @@
-module github.com/go-fynx/deadcode
+module github.com/aidnetic/deadcode
 
 go 1.23
 

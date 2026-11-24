@@ -14,8 +14,8 @@ import (
 	"golang.org/x/tools/go/ssa"
 	"golang.org/x/tools/go/ssa/ssautil"
 
-	"github.com/go-fynx/deadcode/internal/config"
-	"github.com/go-fynx/deadcode/internal/logger"
+	"github.com/aidnetic/deadcode/internal/config"
+	"github.com/aidnetic/deadcode/internal/logger"
 )
 
 // DeclKind describes the kind of a dead code declaration.

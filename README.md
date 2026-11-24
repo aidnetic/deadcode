@@ -5,8 +5,8 @@
 **A CLI tool that detects and optionally removes dead code across a Go project or monorepo.**
 
 [![Go Version](https://img.shields.io/badge/Go-1.21%2B-blue)](https://golang.org/dl/)
-[![Go Reference](https://pkg.go.dev/badge/github.com/go-fynx/deadcode.svg)](https://pkg.go.dev/github.com/go-fynx/deadcode)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-fynx/deadcode)](https://goreportcard.com/report/github.com/go-fynx/deadcode)
+[![Go Reference](https://pkg.go.dev/badge/github.com/aidnetic/deadcode.svg)](https://pkg.go.dev/github.com/aidnetic/deadcode)
+[![Go Report Card](https://goreportcard.com/badge/github.com/aidnetic/deadcode)](https://goreportcard.com/report/github.com/aidnetic/deadcode)
 
 
 It uses **SSA (Static Single Assignment)** and **RTA (Rapid Type Analysis)** to build a precise call graph, then reports every function, variable, constant, and type that is unreachable from any `main` entry point.
@@ -35,13 +35,13 @@ It uses **SSA (Static Single Assignment)** and **RTA (Rapid Type Analysis)** to 
 ## Install
 
 ```bash
-go install github.com/go-fynx/deadcode@latest
+go install github.com/aidnetic/deadcode@latest
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/go-fynx/deadcode.git
+git clone https://github.com/aidnetic/deadcode.git
 cd deadcode
 go build -o deadcode .
 ```

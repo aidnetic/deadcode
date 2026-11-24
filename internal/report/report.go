@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-fynx/deadcode/internal/analyzer"
-	"github.com/go-fynx/deadcode/internal/color"
-	"github.com/go-fynx/deadcode/internal/config"
+	"github.com/aidnetic/deadcode/internal/analyzer"
+	"github.com/aidnetic/deadcode/internal/color"
+	"github.com/aidnetic/deadcode/internal/config"
 )
 
 type jsonEntry struct {
